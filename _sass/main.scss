@@ -1,6 +1,7 @@
 $color--primary: rgb(255, 255, 255) !default;
 $color--default: #3a3a3a;
 $color--light: lighten($color--default, 65%);
+$color--accent: #e531a3;
 
 $size--unit: 8px;
 
@@ -138,10 +139,9 @@ nav {
 }
 
 .footer {
-  margin-top: $size--unit * 12;
+  margin-top: $size--unit * 18;
   background: black;
   color: $color--primary;
-  margin-bottom: 0;
   border-bottom: 1rem solid black;
   &__content {
     display: flex;
@@ -191,4 +191,21 @@ input[type="number"] {
   border-radius: 3px;
   font-size: 16px;
   text-align: center;
+}
+
+.plain__link {
+  text-decoration: none;
+}
+
+.banner {
+  width: 100%;
+  background-color: $color--accent; /* Change to your desired background color */
+  padding: 8px; /* Adjust padding as needed */
+  text-align: center;
+  p {
+    font-weight: 500;
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
 }
