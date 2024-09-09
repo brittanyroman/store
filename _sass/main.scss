@@ -57,7 +57,7 @@ nav {
 .header {
   display: flex;
   justify-content: center;
-  padding: 16px;
+  padding: 8px 16px;
   font-weight: 700;
   background: black;
   color: $color--primary;
@@ -83,6 +83,7 @@ nav {
   font-weight: 900;
   font-size: 32px;
   font-family: Arial, "Abril Fatface", cursive, sans-serif;
+  margin: 0;
 }
 
 .header__left {
